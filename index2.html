@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prototype</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style2.css">
+<script src="diffscript.js" defer></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+
+<script>
+  $(function(){
+    $('#header').load('header.html');
+    $('#footer').load('footer.html');
+  });
+</script>
+
+</head>
+<body>
+<div id="header"></div>
+
+  <div class="row">
+        <div class="col-3 col-s-3 menu">
+          
+            <div class="icon">
+              <div class="list">
+                  <em></em>
+                  <em></em>
+                  <em></em>
+              </div>
+              <div class="grid">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <button class="button" type="button" onclick="window.location.href='index.html';">Normal View</button>
+          </div>
+
+       
+        </div>
+      
+        <div class="col-6 col-s-9">
+         
+          <div class="row">
+            <div class="column">
+                <div class="contain">
+                
+                  <div class="draggable" draggable="true">A</div>
+                  <div class="draggable" draggable="true">B</div><br>
+                </div>
+            </div>
+                <div class="column">
+                    <div class="contain">
+                      <div class="draggable" draggable="true">C</div>
+                      <div class="draggable" draggable="true">D</div><br>
+                      </div>
+                </div>
+        <div>  
+       
+        </div>
+          </div></div>
+        <div class="col-3 col-s-12">
+            <div class="sidenav"><br>
+                <div class="contain">
+                <h3 class="list-heading" white><p style="color:#A9A9A9;">&nbsp;&nbsp;Terminals List</p></h3><br>
+                <div class="form-group form-md-line-input" style="padding-top: 0px;padding: 5px;"><div class="col-md-1"></div> <div class="col-md-10"><div class="input-group"><input type="text" placeholder="Search..." class="form-control input-sm" style="color: rgb(255, 255, 255);"> <span class="input-group-addon"><i class="icon-magnifier"></i></span></div></div> <div class="col-md-1"></div></div>
+                <div class="draggable" draggable="true">E</div>
+                <div class="draggable" draggable="true">F</div>
+                <div class="draggable" draggable="true">G</div>
+                <div class="draggable" draggable="true">H</div>
+                <div class="draggable" draggable="true">I</div>
+                <div class="draggable" draggable="true">J</div>
+                <div class="draggable" draggable="true">K</div>
+                </div>
+            </div>
+        </div>
+  </div>
+  
+      <div id="footer"></div>
+</body>
+</html>
