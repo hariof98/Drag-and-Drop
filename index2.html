@@ -5,11 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style2.css">
 <script src="diffscript.js" defer></script>
-<script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
 
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 
 <script>
   $(function(){
@@ -45,20 +42,17 @@
       
         <div class="col-6 col-s-9">
          
-          <div class="row">
-            <div class="column">
+          <div class="row" id="row-1">
+            <div class="column" id="col-1">
                 <div class="contain">
                 
-                  <div class="draggable" draggable="true">A</div>
-                  <div class="draggable" draggable="true">B</div><br>
+                  <div class="draggable" id="a" draggable="true"> <a  href="http://google.com">A</a></div>
+                  <div class="draggable" id="b" draggable="true">B</div>
+                  <div class="draggable" id="c" draggable="true">C</div>
+                 
                 </div>
             </div>
-                <div class="column">
-                    <div class="contain">
-                      <div class="draggable" draggable="true">C</div>
-                      <div class="draggable" draggable="true">D</div><br>
-                      </div>
-                </div>
+             
         <div>  
        
         </div>
@@ -68,13 +62,14 @@
                 <div class="contain">
                 <h3 class="list-heading" white><p style="color:#A9A9A9;">&nbsp;&nbsp;Terminals List</p></h3><br>
                 <div class="form-group form-md-line-input" style="padding-top: 0px;padding: 5px;"><div class="col-md-1"></div> <div class="col-md-10"><div class="input-group"><input type="text" placeholder="Search..." class="form-control input-sm" style="color: rgb(255, 255, 255);"> <span class="input-group-addon"><i class="icon-magnifier"></i></span></div></div> <div class="col-md-1"></div></div>
-                <div class="draggable" draggable="true">E</div>
-                <div class="draggable" draggable="true">F</div>
-                <div class="draggable" draggable="true">G</div>
-                <div class="draggable" draggable="true">H</div>
-                <div class="draggable" draggable="true">I</div>
-                <div class="draggable" draggable="true">J</div>
-                <div class="draggable" draggable="true">K</div>
+                <div class="draggable" id="d" draggable="true">D</div>
+                <div class="draggable" id="e" draggable="true">E</div>
+                <div class="draggable" id="f" draggable="true">F</div>
+                <div class="draggable" id="g" draggable="true">G</div>
+                <div class="draggable" id="h" draggable="true">H</div>
+                <div class="draggable" id="i" draggable="true">I</div>
+                <div class="draggable" id="j" draggable="true">J</div>
+                <div class="draggable" id="k" draggable="true">K</div>
                 </div>
             </div>
         </div>
