@@ -166,8 +166,8 @@
   }
 
   div.container {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: #f1f1f1;
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+    /*background-color: #f1f1f1;*/
     width: 388px;
     margin: 20px;
     margin-top: 20%;
@@ -194,6 +194,7 @@
     width: 9rem;
     height: 75px;
     margin-top: 5px;
+    margin-left: 4rem;
   }
 
   .column {
